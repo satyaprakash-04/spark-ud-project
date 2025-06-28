@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from lib import Log4J
+from library import Log4J
 if __name__ == '__main__':
     spark = SparkSession \
         .builder \
