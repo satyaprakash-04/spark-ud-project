@@ -10,10 +10,10 @@ class Log4J:
         self.logger.warn(message)
 
     def info(self, message):
-        self.logger.warn(message)
+        self.logger.info(message)
 
     def error(self, message):
-        self.logger.warn(message)
+        self.logger.error(message)
 
     def debug(self, message):
-        self.logger.warn(message)
+        self.logger.debug(message)
