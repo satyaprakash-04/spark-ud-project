@@ -16,8 +16,7 @@ if __name__ == '__main__':
 
     spark.stop()
     # Ends
-    import pdb
-    pdb.set_trace()
+    # Reading CSV file.
     conf = get_spark_app_config()
     spark = SparkSession.builder.config(conf=conf).getOrCreate()
     logger = Log4J(spark)
